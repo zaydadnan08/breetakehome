@@ -14,13 +14,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zaydadnan.bree-takehome"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "androidStatusBar": {
+        "backgroundColor": "#ffffff",
+        "translucent": false
+      }  
     },
     "web": {
       "bundler": "metro",
